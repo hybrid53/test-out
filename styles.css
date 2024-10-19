@@ -1,0 +1,27 @@
+section{
+		
+		background-color:red;
+		height:100vh;
+		display:grid;
+		grid-template-columns:repeat(4, 1fr);
+		}
+		
+main{
+	height:200px;
+background-color:aqua;
+margin:10px}
+
+@media only screen and (max-width:768px){
+	Section{
+		background-color:hotpink;
+		grid-template-columns:repeat(2, 1fr);
+		color:green;
+		}
+	}
+		@media only screen and (max-width:500px){
+			section{
+				background-color:yellow;
+				color:hotpink;
+				grid-template-columns:repeat(1, 1fr);
+				}
+			}
